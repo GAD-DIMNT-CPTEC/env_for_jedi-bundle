@@ -121,9 +121,9 @@ export GMP_INCLUDE_DIR=$GMP_INC
 ## ecbuild will redirect URL downloads for coefficients and test-data to the local mirror (copy):
 export ECBUILD_DOWNLOAD_BASE_URL=file:///mnt/beegfs/jose.aravequia/mirror-mpas-bundle
 
-### After building JEDI, the libraries created must be accessible, then add it to LD_LIBRARY_PATH :
-
+### The libraries created  building jedi-bundle must be accessible, then add it to LD_LIBRARY_PATH :
 export LD_LIBRARY_PATH=${JEDI_BUILD}/lib:${LD_LIBRARY_PATH}
+
 cd $JEDI_BUILD
 ## Run the tests that are built with mpas
 ## ctest
