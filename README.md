@@ -1,6 +1,6 @@
 # env_for_jedi-bundle
 
-## Environment for build jedi-bundle release/skylab-v8 at CPTEC's EGEON cluster
+## Environment to build jedi-bundle release/skylab-v8 at CPTEC's EGEON cluster
 
 To set the environment to build and run JCSDA jedi-bundle release/skylab-v8 at CPTEC's EGEON cluster it was created these bash shell scripts.
 
