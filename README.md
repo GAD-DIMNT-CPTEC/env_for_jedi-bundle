@@ -17,7 +17,7 @@ mkdir -p jedi && cd jedi
 git clone -b release/skylab-v8 https://github.com/JCSDA/jedi-bundle.git jedi-bundle  
 ```
 
-### Copy the script How_to_build_mpas-bundle-2.0.0.sh to $HOME/jedi.
+**Copy the script How_to_build_mpas-bundle-2.0.0.sh to $HOME/jedi.**
 
 To build jedi-bundle use:
 
